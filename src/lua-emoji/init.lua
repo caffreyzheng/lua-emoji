@@ -2842,7 +2842,7 @@ function _M.new(self)
     UNICODE_EMOJI[v] = k
   end
 
-  return setmetatable(UNICODE_EMOJI,mt)
+  return setmetatable({UNICODE_EMOJI=UNICODE_EMOJI},mt)
 end
 
 return _M
