@@ -1,5 +1,5 @@
 package = "lua-emoji"
-version = "0.1.0"
+version = "0.1.0-1"
 source = {
   url = "git+https://github.com/caffreyzheng/lua-emoji.git"
 }
@@ -15,6 +15,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    lua-emoji = "src/lua-emoji/init.lua"
+    ["lua-emoji"] = "src/lua-emoji/init.lua"
   }
 }
