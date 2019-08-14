@@ -7,7 +7,7 @@ end
 
 local _M = new_tab(0, 55)
 
-_M._VERSION = '1.0.0'
+_M._VERSION = '0.1.0'
 local mt = { __index = _M }
 
 local EMOJI_UNICODE = {}

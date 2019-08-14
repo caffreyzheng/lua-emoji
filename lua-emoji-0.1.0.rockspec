@@ -1,5 +1,5 @@
 package = "lua-emoji"
-version = "1.0.0"
+version = "0.1.0"
 source = {
   url = "git+https://github.com/caffreyzheng/lua-emoji"
 }
