@@ -1,4 +1,4 @@
-# emoji-clock
+# lua-emoji
 
 # Installation
 
