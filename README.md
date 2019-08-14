@@ -27,8 +27,7 @@ local luaemoji = require 'lua-emoji'
 
 local e = luaemoji:new()
 
-local shortcode = e:shortcode_to_emoji('local shortcode = e::regional_indicator_symbol_letter_z:('🥇')
-')
+local shortcode = e:shortcode_to_emoji(':regional_indicator_symbol_letter_z:')
 print(shortcode)
 
 ```
